@@ -1,0 +1,67 @@
+.lorem{
+    line-height: 1.5 !important;
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+.titles{
+    margin-bottom: 0 !important;
+}
+.Cervices{
+    padding: 0 10% !important;
+}
+
+.CardS{
+    border: 0 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 15px rgb(1 1 1 / 15%)
+}
+.colorS{
+    color: #FF9E0B;
+    font-size: 25px !important;
+    font-weight: 500;
+}
+
+.icon{
+    font-size: 60px !important;
+    color:#FF9E0B !important;
+}
+
+.icon:focus{
+    color: red;
+}
+#red{
+
+    transition: 0.5s ease;
+}
+#red:hover{
+ 
+    transform: translateY(-15px);
+
+}
+
+.About>.title::before{
+    content: '';
+    display: block;
+    width: 140px;
+    height: 5px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+  background-color: #f5b53e;
+  }
+  .About>.title::after{
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f1ae48;
+    
+  
+    }

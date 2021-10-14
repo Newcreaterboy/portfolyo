@@ -1,0 +1,22 @@
+.CardC{
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 5px 15px rgb(1 1 1 / 15%) !important;
+    border: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    
+}
+#iconC{
+    font-size: 80px !important;
+    color: #FF9E0B;
+    font-family: sans-serif;
+}
+.action{
+    transition: 0.5s ease;
+}
+.action:hover{
+transform: translateY(-10px);
+}

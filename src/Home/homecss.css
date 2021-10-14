@@ -1,0 +1,65 @@
+/* .home{
+    background-image: url(./rasm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+.home{
+    background-image: url(./rasm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .hh{
+     position: relative;
+     left: 35%;
+     width: 55% !important;
+  }
+
+  .see{
+    position: relative;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+ 
+  }
+.rang{
+  background-color:#FF9E0B !important;
+  border: 0 !important;
+}
+
+.anim2{
+
+    height: 70px;
+    overflow: hidden;
+    color: #FF9E0B;
+    position: relative;
+  }
+  .anim2 h1{
+   
+    line-height: 70px;
+    letter-spacing: 1px;
+    
+  
+  }
+  .anim2 h1:first-child {
+    animation: text_move 12s infinite;
+  }
+  
+  @keyframes text_move {
+    0% {
+      margin-top: 0;
+  }
+  
+  25% {
+      margin-top: -70px;
+  }
+  50% {
+      margin-top: -140px;
+  }
+  75% {
+      margin-top: -70px;
+  }
+  100% {
+      margin-top: 0;
+  }
+  }
